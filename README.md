@@ -3,6 +3,9 @@
 张量化飞行器仿真环境接口框架。公开接口和参数定义见
 [接口文档](docs/sim_env_interface.md)。
 
+本包是从 RL_Flight monorepo 剥离的独立仓库，仅依赖 PyTorch 与 PyYAML，不依赖仓库内任何其他模块。训练、系统辨识、控制器与 WebUI 等上层应用在各自仓库中以依赖方式消费本包；
+sim2real 等实验配置保留在原仓库。
+
 配置可从带完整中文注释且可直接运行的
 [配置模板](configs/template.yaml) 开始；[示例配置](configs/example.yaml) 也已标注主要字段、单位和约束。
 
