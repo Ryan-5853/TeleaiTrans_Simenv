@@ -24,7 +24,7 @@ python scripts/manual_checks/check_observations.py
 ```bash
 python scripts/manual_checks/check_configured_geometry.py \
   configs/example.yaml \
-  ../Train/configs/environment/mlp_nominal_baseline_1.yaml
+  configs/template.yaml
 ```
 
 坐标系采用 NED/FRD。机体系 `+z` 指向下方；从机体上方向下看（视线沿 `+z`），
